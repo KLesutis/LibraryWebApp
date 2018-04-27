@@ -102,4 +102,6 @@ https://wireframe.cc/pro/pp/f12e0d89a162572#30ff8ch6
 
 ### Order page
 
+- List of all orders, remove orders, watch one order, end order, extend order;
+
 https://wireframe.cc/pro/pp/f12e0d89a162572#tl50yofw
