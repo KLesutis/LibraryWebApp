@@ -74,18 +74,32 @@ Framework: Angular Design: Material
 
 - Menu where you can select book page, order page, reader page;
 
+https://wireframe.cc/pro/pp/f12e0d89a162572#1
+
 ### Book page
 
 - List of all books, remove book, add book, place order, search for book, add author to book, remove author from book, update book info;
+
+https://wireframe.cc/pro/pp/f12e0d89a162572#ddziu7u1
 
 ### Reader page
 
 - List of all readers, remove reader, add new reader, see reader orders, what books are he taken, update reader info;
 
+https://wireframe.cc/pro/pp/f12e0d89a162572#hmvuzcli
+
 ### Author page
 
 - List of all authors, remove author, add new author, see author books, add author books, remove author books, update author info;
 
+https://wireframe.cc/pro/pp/f12e0d89a162572#qwuo99vz
+
 ### Librarian page
 
 - List of all librarians, remove librarian, add new librarian, update librarian info;
+
+https://wireframe.cc/pro/pp/f12e0d89a162572#30ff8ch6
+
+### Order page
+
+https://wireframe.cc/pro/pp/f12e0d89a162572#tl50yofw
