@@ -8,7 +8,6 @@ const Book = require("../models/book");
 router.get("/", (req, res, next) => {
   Book.find()
     .select("title releaseDate pages quantity author _id")
-    .populate('author', 'lname')
     .exec()
     .then(docs => {
       const response = {
@@ -48,12 +47,10 @@ router.post("/", (req, res, next) => {
               title: req.body.title,
               releaseDate: req.body.releaseDate,
               pages: req.body.pages,
-              quantity:req.body.quantity
+              quantity:req.body.quantity,
+              author:req.body.author
 
       });
-      if(req.body.authorId){
-          book.author.push(req.body.authorId);
-      }
       return book.save()  .then(result => {
     console.log(result);
     res.status(201).json({
