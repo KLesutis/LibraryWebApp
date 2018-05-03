@@ -3,15 +3,8 @@
 
 ## Entities
 
-- Book(_id (string), Title(string), releaseDate(ISO 8601 format date string), pages(Number), quantity(Number), author(Array of author model IDs));
+- Book(_id = Joi.string().required(), title = Joi.string().required(), releaseDate = Joi.string().required(), pages = number().integer().required(), quantity = number().integer().required(), author = Joi.string().required());
 
-- Author(_id (string), fname(string), lname(string), pseudonym(string), releaseDate(ISO 8601 format date string), deadDate(ISO 8601 format date string), books(Array of books model IDs));
-
-- Librarian(_id (string), fname(string), lname(string), phoneNumber(String), email(String));
-
-- Reader(_id (string), fname(string), lname(string), phoneNumber(String), email(String),orders(Array of orders model IDs));
-
-- Order(_id (string), librarian(librarian model ID), reader(reader model ID), books(Array of books model IDs), returnDate(ISO 8601 format date string),takenDate(ISO 8601 format date string));
 
 ## REST API
 
